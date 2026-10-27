@@ -1,0 +1,6 @@
+{
+  "name": "Unbox Vietnam - The Art of Neo-Folklore",
+  "description": "Dự án học thuật VNU1001 giới thiệu và lan tỏa văn hóa Việt Nam thông qua nghệ thuật art toy, trải nghiệm mua sắm mô phỏng và các mini game tương tác.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: "Times New Roman", Times, "Songti SC", "SimSun", serif;
+  }
+
+  body {
+    background-color: #FDFBF7;
+    color: #262626;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom delicate scrollbars matching Lacquer Red & Gold */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EBE1;
+}
+::-webkit-scrollbar-thumb {
+  background: #88131B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6F0D14;
+}
+
+/* Neo-Folklore decorative pattern backgrounds */
+.bg-lacquer-pattern {
+  background-color: #781017;
+  background-image: radial-gradient(#F59E0B 0.75px, transparent 0.75px), radial-gradient(#F59E0B 0.75px, #781017 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.15;
+}
+
+.bg-bronze-pattern {
+  background-color: #FAF6F0;
+  background-image: radial-gradient(#D97706 0.6px, transparent 0.6px);
+  background-size: 20px 20px;
+}
